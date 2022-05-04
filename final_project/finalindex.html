@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Life in Lockdown</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="finalstyle.css">
+	<script src="finalscript.js" defer></script>
+
+</head>
+
+<h1>Life in Lockdown!</h1>
+
+<p>Instructions:</p>
+<p>1. Click the start button to begin playing</p>
+<p>2. Use your mouse to shoot all the enemies during your lockdown</p>
+<p>3. Don't let the enemies shoot at you!</p>
+<p>4. Win the game!</p>
+
+<div id="gameFrame" onclick="gunSound.play()">
+
+  <div id="healthBar"></div>
+
+  <div class="enemy" id="enemy1" onclick="iShoot(this)"></div>
+  <div class="enemy" id="enemy2" onclick="iShoot(this)"></div>
+  <div class="enemy" id="enemy3" onclick="iShoot(this)"></div>
+  <div class="enemy" id="enemy4" onclick="iShoot(this)"></div>
+  <div class="enemy" id="enemy5" onclick="iShoot(this)"></div>
+
+<p style="text-align: center;">
+  <button onclick="newGame()">START</button>
+</p>  
+</div>
+
+
+
+</body>
+
+</html>
